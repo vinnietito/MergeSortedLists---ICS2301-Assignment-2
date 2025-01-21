@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-// Function to merge two sorted arrays
 void mergeSortedLists(int list1[], int size1, int list2[], int size2, int mergedList[]) {
     int i = 0, j = 0, k = 0;
 
-    // Merge elements from both arrays in sorted order
     while (i < size1 && j < size2) {
         if (list1[i] <= list2[j]) {
             mergedList[k++] = list1[i++];
