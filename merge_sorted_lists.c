@@ -21,7 +21,6 @@ void mergeSortedLists(int list1[], int size1, int list2[], int size2, int merged
 }
 
 int main() {
-    // Sample input arrays
     int list1[] = {1, 3, 5, 7};
     int list2[] = {2, 4, 6, 8};
     int size1 = sizeof(list1) / sizeof(list1[0]);
