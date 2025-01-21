@@ -11,7 +11,6 @@ void mergeSortedLists(int list1[], int size1, int list2[], int size2, int merged
         }
     }
 
-    // Add remaining elements from list1 (if any)
     while (i < size1) {
         mergedList[k++] = list1[i++];
     }
