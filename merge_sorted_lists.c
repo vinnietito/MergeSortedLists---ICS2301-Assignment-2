@@ -27,10 +27,8 @@ int main() {
     int size2 = sizeof(list2) / sizeof(list2[0]);
     int mergedList[size1 + size2];
 
-    // Merge the lists
     mergeSortedLists(list1, size1, list2, size2, mergedList);
 
-    // Print the merged list
     printf("Merged Sorted List: ");
     for (int i = 0; i < size1 + size2; i++) {
         printf("%d ", mergedList[i]);
